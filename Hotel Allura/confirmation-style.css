@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --transition: all 0.7s ease;
+    --yellow: #f9d342;
+    --dark: #292826;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+a{
+    font-size: 35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.user-camp{
+    margin-top: 100px;
+}
+
+#e-mail-date, #name-date, #password-date{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.save-btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 240px;
+    display: block;
+    margin: 5px auto;
+    padding: 10px auto;
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: #f9d342;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.save-btn:hover{
+    opacity: 0.85;
+}
